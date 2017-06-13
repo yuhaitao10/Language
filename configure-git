@@ -1,0 +1,41 @@
+https://www.youtube.com/watch?v=SWYqp7iY_Tc				
+				
+cat  ~/.ssh/id_rsa.pub			get the public ssh key	
+Settings->SSH keys GPS keys				
+				
+sudo apt-get install git				
+				
+git init	ls -al			
+git remote add origin https://github.com/yuhaitao10/Language.git				
+git config --global user.email "you@domain.com"				
+git config --global user.name "github_username"				
+git remote 				
+git push -u origin master				
+				
+git status				
+git add abc.txt				
+git rm abc.txt				
+git add .				
+git rm --cached abc.txt				
+				
+git commit -m "changed app.js"				
+git push				
+				
+git branch  		get of branches		
+git branch login		create a branch		
+git checkout login		swith to branch login		
+git checkout master		swith to branch master		
+get merge test-branch			merge test-branch  to the current branch	
+get branch -D test-branch			will delete test-branch	
+				
+git diff				
+				
+git pull 				
+				
+git clone 	use an url			
+				
+git log				
+				
+git reset --hard origin 4761626				go back to a previous version
+
+git revert HEAH
