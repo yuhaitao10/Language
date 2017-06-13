@@ -1,4 +1,4 @@
-#!/usr/bin/python
+                                                                                                      #!/usr/bin/python
 import subprocess
 import commands
 import argparse
@@ -27,6 +27,7 @@ def runBash(cmd):
   ll = list(output.split('\n'))
   return(ll)
 
+
 def changeName(oldName,newNameBase):
   temp = oldName.split('.')
   newName = newNameBase + '.' + temp[1] + '.' + temp[2]
@@ -36,4 +37,12 @@ def changeAllNames(oldNameBase,newNameBase):
   files = runBash("ls")
   for afile in files:
     print afile
-                                                                                                       1,1           Top
+    if afile.split('.')[0] == oldNameBase:
+      changeName(afile,newNameBase)
+
+#Change files with base test to base new
+#changeAllNames("test","new")
+#changeAllNames(args.inputFileName, args.outputFileName)
+if len(sys.argv) == 3:
+  changeAllNames(sys.argv[1], sys.argv[2])
+
