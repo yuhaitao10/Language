@@ -32,11 +32,12 @@ def server_check(server):
   else:
       print('All is well')
 
+#None thread loop
 for server in server_list:
   server_check(server)
 
 
-
+#Thread loop
 for server in server_list:
   t = Tread(target=server_check, arge=(server,))
   t.start()
