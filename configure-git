@@ -36,4 +36,6 @@ git clone 	use an url
 				
 git log				
 				
-get reset --hard origin 4761626				go back to a previous version
+git reset --hard origin 4761626				go back to a previous version
+
+git revert HEAH
