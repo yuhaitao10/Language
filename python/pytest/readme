@@ -1,0 +1,29 @@
+pip install pytest
+sudo apt-get upgrade
+
+<1>To test all 
+python -m pytest
+pytest -v
+
+<2>
+py.test
+py.test -v
+
+
+<3>To see the reason why a test is skipped. This is for the test that is marked to skip like: @pytest.mark.skip(reason="I dont want to run this test now")
+pytest -v -rxs
+
+
+<4>This will run a test that has multiply as part of this name
+pytest -k multiply
+pytest -k multiply -v
+
+<5>
+This command will run test that is tagged with windows
+pytest -m windows 
+pytest -m "not windows"
+
+This command will run test that is tagged with mac
+pytest -m mac 
+
+
