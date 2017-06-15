@@ -8,7 +8,17 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc
 cat  ~/.ssh/id_rsa.pub			get the public ssh key	
 Settings->SSH keys GPS keys				
 				
-sudo apt-get install git				
+Linux(Debian)
+$ sudo apt-get install git
+
+Linux(Fedora)
+$ sudo yum install git
+
+Max
+http://git-scm.com/download/mac
+
+Windows
+http://git-scm.com/download/win				
 				
 git init	ls -al			
 git remote add origin https://github.com/yuhaitao10/Language.git				
