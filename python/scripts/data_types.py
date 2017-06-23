@@ -11,6 +11,9 @@ hosts['h3'] = '3.4.5.6'
 for server,ip in hosts.items():
   print server, ip
 
+for server,ip in hosts.items():
+	print ('serer: {} ip: {}'.format(server, ip))
+
 hosts2 = {'h1':'1.2.3.4','h2':'2,3,4,5', 'h3':'3.4.5.6'}
 for server,ip in hosts2.items():
   print "server: %s" % ip
