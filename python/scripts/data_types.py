@@ -24,6 +24,9 @@ mytuple = ()
 
 mydictionary = {}
 
+#the only thing we can do is to add an element in a tuple
+a = (1,2,3)
+a = a + (4,)
 
 book={'Dad':'Bob','Mom':'Lisa','Bro':'Joe'}		
 book['Dad']		
