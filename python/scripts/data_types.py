@@ -22,6 +22,8 @@ mylist = []
 
 mytuple = ()
 
+mydictionary = {}
+
 
 book={'Dad':'Bob','Mom':'Lisa','Bro':'Joe'}		
 book['Dad']		
