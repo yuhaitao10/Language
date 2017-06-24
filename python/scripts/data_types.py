@@ -32,6 +32,12 @@ book={'Dad':'Bob','Mom':'Lisa','Bro':'Joe'}
 book['Dad']		
 p=book.clear()		
 print "Dictionary clear() function: %s" % p
+
+#del an dictionary element
+del['Dad']
+
+#add a dictionary element
+book['Grace'] = 'Sis'
 		
 ages={'Dad':'42','Mom':'87'}		
 tuna=ages.copy()		
