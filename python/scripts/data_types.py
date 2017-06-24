@@ -24,7 +24,7 @@ mytuple = ()
 
 mydictionary = {}
 
-#the only thing we can do is to add an element in a tuple
+#the only thing we can do to a tuple is to add an element
 a = (1,2,3)
 a = a + (4,)
 
